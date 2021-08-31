@@ -58,7 +58,7 @@ int pwdattk(){
     //("Chaining Password...\n");
     sleep(9);
     printf("%sPassword was changed successfully\n%s", green, reset);
-    exitQ();
+    //exitQ();
     printf("exiting quietly\n");
     sleep(15);
     printf("shutting down bots\n");
@@ -87,7 +87,7 @@ int massReport(){
         
     }
     printf("%sUser: %s was reported 5,000 times\n", green, user);
-    exitQ();
+    //exitQ();
     return 0;
 }
 
